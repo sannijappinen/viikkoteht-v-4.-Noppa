@@ -1,4 +1,5 @@
 const diceDiv = document.getElementById('dice'); 
+
 function rollDice() {
     const randomNumber = Math.floor(Math.random() * 6) + 1;
     
